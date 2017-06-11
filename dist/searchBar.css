@@ -1,0 +1,28 @@
+.searchBar {
+    max-width: 840px;
+    min-width: 600px;
+    width: 100%;
+    background: white;
+    height: 50px;
+    border: 1px solid #222;
+    font-size: 24px;
+    padding: 13px 9px;
+    box-sizing: border-box;
+    margin: 50px 0px;
+    font-weight: lighter;
+    float: left;
+    position: relative;
+    line-height: 50px;
+}
+
+.searchBar:focus {
+    outline: none !important;
+}
+
+input[type=text].searchBar + label {
+    font-size: 24px;
+    color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 60px;
+    right: 18px;
+}

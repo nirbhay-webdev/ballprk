@@ -1,0 +1,47 @@
+
+.postBox {
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    float: left;
+    display: block;
+    background: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    padding: 10px 10px;
+    box-shadow: -1px 1px 5px 0px;
+}
+
+
+
+.postBox .backgroundImage {
+
+}
+
+.postBox span.tileTitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    width: 100%;
+    min-height: 20px;
+    padding: 3px 3px;
+    position: relative;
+    line-height: 20px;
+    box-sizing: border-box;
+    transform: translateY(108px)
+}
+
+.postBox span.tileContent {
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    display: block;
+    width: 100%;
+    min-height: 20px;
+    padding: 3px 3px;
+    position: relative;
+    line-height: 20px;
+    box-sizing: border-box;
+    transform: translateY(108px)
+
+}

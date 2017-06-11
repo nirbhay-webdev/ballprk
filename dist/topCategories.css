@@ -1,0 +1,11 @@
+.categoryBox {
+    width: 100%;
+    min-height: 180px;
+    position: relative;
+    float: left;
+    display: block;
+    background: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    padding: 10px 10px;
+    box-shadow: -1px 1px 5px 0px;
+}

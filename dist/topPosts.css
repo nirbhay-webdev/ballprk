@@ -1,0 +1,144 @@
+.postCard {
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    float: left;
+    display: block;
+    background: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    padding: 0px 0px;
+    box-shadow: -2px 2px 5px 0px;
+}
+
+.postHeader {
+    width: 100%;
+    height: 80px;
+    background: white;
+    float: left;
+    position: relative;
+    background: white;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    
+}
+
+.postCoverImage {
+    width: 100%;
+    height: 180px;
+    background: transparent !important;
+    float: left;
+    position: relative;
+    background: white; 
+}
+
+.postContent {
+    width: 100%;
+    height: 180px;
+    background: white;
+    float: left;
+    position: relative;
+    background: white;
+    box-sizing: border-box;
+    padding: 15px 15px;
+}
+
+.postContent .title {
+    font-size: 16px;
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 100%;
+    display: inline-block;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.postContent .content {
+    font-size: 12px;
+    position: relative;
+    float: left;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    line-height: 12px;
+}
+.postContent .hashtags {
+    font-size: 12px;
+    position: relative;
+    float: left;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    line-height: 12px;
+    margin:0px -10px;
+}
+
+.postContent .hashtagEach {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    position: relative;
+    font-size: 12px;
+    display: block;
+    padding: 0px 10px;
+}
+
+.postActions {
+    width: 100%;
+    height: 40px;
+    background: white;
+    float: left;
+    position: relative;
+    background: white;
+    box-sizing: border-box;
+    padding: 5px 5px;
+}
+
+.postComments {
+    width: 100%;
+    height: 120px;
+    background: white;
+    float: left;
+    position: relative;
+    background: rgba(0,0,0,0.1) !important;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.4) inset;
+}
+
+.postCommentEdit {
+     width: 100%;
+    height: 80px;
+    background: white;
+    float: left;
+    position: relative;
+    background: white;
+}
+
+.profileIcon {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: block;
+    float: left;
+    background: rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.userName {
+    width: auto;
+    height: 60px;
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.userDetails {
+    font-size: 12px;
+    font-weight: lighter;
+    display: inline;
+
+}
