@@ -643,3 +643,19 @@ html,body {
         float: left;
     }
 }
+
+.horizontalGrid {
+    margin: 0px -15px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+.horizontalGridElement {
+    width: 25%;
+    float: left;
+    height: auto;
+    position: relative;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    margin: 15px 0px;
+}
